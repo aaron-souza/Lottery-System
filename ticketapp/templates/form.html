@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create and View Tickets</title>
+</head>
+<body>
+<div>
+    <h1>Create a Ticket</h1>
+    <form method="post">
+        {%csrf_token%}
+        {{ form }}
+        <button type="submit">Submit</button>
+    </form>
+</div>
 
+</body>
+</html>
