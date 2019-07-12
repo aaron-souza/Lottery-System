@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>Ticket details</h1>
+    <form method="get">
+        {%csrf_token%}
+        {% for k in ticketID %}
+            <p>{{k}}</p>
+        {% endfor %}
+    </form>
+</div>
+</body>
+</html>
