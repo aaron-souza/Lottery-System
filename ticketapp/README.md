@@ -1,6 +1,6 @@
 # URLs performing different functions
 
-/ticket - Creates a ticket
+/ticket - Create a ticket
 
 /ticketlist - Fetches all the tickets from the database
 
